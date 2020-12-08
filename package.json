@@ -1,0 +1,20 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "proyecto de ejemplo clases teoria",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alfobralla/contactsFIS2020.git"
+  },
+  "homepage": "https://github.com/alfobralla/contactsFIS2020",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alfonso Bravo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
