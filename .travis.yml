@@ -9,7 +9,7 @@ before_install:
 install:
   - npm install
 script:
-  - docker build -t proyecto .
+  - docker build -t contacts .
 deploy:
   provider: script
   skip_cleanup: true
@@ -17,4 +17,4 @@ deploy:
     heroku container:login;
     heroku container:push web -a $HEROKU_APP_NAME;
     heroku container:release web -a $HEROKU_APP_NAME;
-  branch: main
+  branch: master
