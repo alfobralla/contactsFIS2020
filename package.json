@@ -15,6 +15,7 @@
   "author": "Alfonso Bravo",
   "license": "ISC",
   "dependencies": {
+    "code": "^5.2.4",
     "express": "^4.17.1",
     "mongoose": "^5.11.7",
     "nedb": "^1.8.0"
